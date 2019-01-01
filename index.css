@@ -1,0 +1,138 @@
+body {
+
+	background-image: url("https://media.giphy.com/media/dX11vZKcKcXte/giphy.gif ");
+
+	min-height: 100vh;
+
+	background-size: cover;
+
+	background-position: center;
+
+	background-repeat: no-repeat;
+
+	margin: 0 auto;
+
+	color: white;
+
+}
+.hero {
+
+    position: absolute;
+
+    min-height: 100vh;
+
+    min-width: 100vw;
+
+    top: 0;
+
+    bottom: 0;
+
+    background-color: transparent;
+
+    z-index: -5;
+
+}
+
+
+
+
+.navbar {
+
+	background-color: transparent;
+
+}
+
+
+
+.navbar a {
+
+	color: white;
+
+	font-size: 25px;
+
+}
+
+
+
+
+.weather {
+
+	border:1.5px solid white;
+
+	margin-top: 10rem;
+
+	background-color: transparent;
+
+	border-radius: 20px;
+
+	color: white;
+
+}
+
+
+
+.weather-head {
+
+	height: 50%;
+
+}
+
+
+
+#icon-desc {
+
+	font-size: 6rem;
+
+	padding-top: 2rem;
+
+}
+
+
+
+.humidity, .wind, .visibility {
+
+	border-top: 1px solid black;
+
+	border-bottom: 1px solid black;
+
+	font-size: 2rem;
+
+
+
+}
+
+
+
+#description {
+
+	font-size: 2rem;
+
+}
+
+
+
+#temperature {
+
+	font-size: 7rem;
+
+}
+
+
+
+#icon-thermometer {
+
+	font-size: 5rem;
+
+}
+
+
+
+#humidity, #wind, #visibility {
+
+	font-size: 2rem;
+
+	padding-top: 1rem;
+
+	padding-bottom: 1rem;
+
+}
